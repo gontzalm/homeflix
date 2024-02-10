@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
+cd homeflix
+git commit -am "chore: backup config files"
+git push
