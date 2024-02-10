@@ -13,4 +13,5 @@
   <UrlBase></UrlBase>
   <InstanceName>Radarr</InstanceName>
   <UpdateMechanism>Docker</UpdateMechanism>
+  <AuthenticationRequired>Enabled</AuthenticationRequired>
 </Config>
