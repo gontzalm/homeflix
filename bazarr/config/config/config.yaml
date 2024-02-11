@@ -140,6 +140,7 @@ opensubtitles:
   username: ''
   vip: false
 opensubtitlescom:
+  include_ai_translated: false
   password: 3x,3dSEveVyiF89
   use_hash: true
   username: gontzalm
@@ -175,6 +176,7 @@ radarr:
   only_monitored: false
   port: 7878
   ssl: false
+  sync_only_monitored_movies: false
   use_ffprobe_cache: true
 series_scores:
   audio_codec: 3
@@ -206,6 +208,8 @@ sonarr:
   port: 8989
   series_sync: 60
   ssl: false
+  sync_only_monitored_episodes: false
+  sync_only_monitored_series: false
   use_ffprobe_cache: true
 subf2m:
   user_agent: ''
@@ -214,8 +218,14 @@ subscene:
   password: ''
   username: ''
 subsync:
+  checker:
+    blacklisted_languages: []
+    blacklisted_providers: []
   debug: false
   force_audio: false
+  gss: true
+  max_offset_seconds: 60
+  no_fix_framerate: true
   subsync_movie_threshold: 86
   subsync_threshold: 96
   use_subsync: true
@@ -230,6 +240,8 @@ titulky:
   username: ''
 whisperai:
   endpoint: http://127.0.0.1:9000
+  loglevel: INFO
+  response: 5
   timeout: 3600
 xsubs:
   password: ''
