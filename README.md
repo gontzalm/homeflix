@@ -10,6 +10,7 @@
 ## Platform Setup
 
 1. Install Arch Linux ARM (`aarch64`) on the SSD following the guides
+
    - [Raspberry Pi 4 - Arch Linux ARM](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4)
    - [Arch Linux ARM USB Boot on Raspberry Pi 4](https://gist.github.com/yogaxpto/9495fb9f76a6321aa483e0f73d4ffaf2)
    - This [comment](https://gist.github.com/yogaxpto/9495fb9f76a6321aa483e0f73d4ffaf2?permalink_comment_id=4206041#gistcomment-4206041) on the previous gist
@@ -52,3 +53,13 @@
 ## APPs Setup
 
 Follow the [TRaSH guides](https://trash-guides.info/).
+
+## `systemd` Unit
+
+To start and enable `homeflix` on boot use the `homeflix.service` unit provided:
+
+```shell
+mkdir -p .config/systemd/user
+ln -s homeflix/systemd/homeflix.service .config/systemd/user/homeflix.service
+systemctl --user enable --now homeflix
+```

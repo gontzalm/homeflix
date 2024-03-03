@@ -1,0 +1,11 @@
+[Unit]
+Description=Homeflix service
+Documentation=https://github.com/gontzalm/homeflix.git
+
+[Service]
+WorkingDirectory=/home/alarm/homeflix
+ExecStart=/bin/bash -c "docker compose up"
+ExecStop=/bin/bash -c "docker compose down"
+
+[Install]
+WantedBy=default.target
