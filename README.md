@@ -59,7 +59,5 @@ Follow the [TRaSH guides](https://trash-guides.info/).
 To start and enable `homeflix` on boot use the `homeflix.service` unit provided:
 
 ```shell
-mkdir -p .config/systemd/user
-ln -s homeflix/systemd/homeflix.service .config/systemd/user/homeflix.service
-systemctl --user enable --now homeflix
+systemctl --user enable --now homeflix/systemd/homeflix.service
 ```
