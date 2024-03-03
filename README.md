@@ -56,14 +56,20 @@ Follow the [TRaSH guides](https://trash-guides.info/).
 
 ## Operation
 
-Start and enable `homeflix` on boot:
+1. Start and enable `homeflix` on boot:
 
-```shell
-systemctl --user enable --now homeflix/systemd/homeflix.service
-```
+   ```shell
+   systemctl --user enable --now homeflix/systemd/homeflix.service
+   ```
 
-Check the logs:
+2. Enable [lingering](https://wiki.archlinux.org/title/Systemd/User#Automatic_start-up_of_systemd_user_instances):
 
-```shell
-journalctl --user -u homeflix
-```
+   ```shell
+   loginctl enable-lingering
+   ```
+
+3. Check the logs:
+
+   ```shell
+   journalctl --user -u homeflix
+   ```
