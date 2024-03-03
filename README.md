@@ -23,7 +23,7 @@
    lsblk
    sudo fdisk /dev/sdb
    # create an ext4 partition using the default values
-   sudo mkfs.ext4 //sdb1
+   sudo mkfs.ext4 /sdb1
    ```
 
 1. Automatically mount the drive by adding it to `fstab`:
@@ -54,10 +54,16 @@
 
 Follow the [TRaSH guides](https://trash-guides.info/).
 
-## `systemd` Unit
+## Operation
 
-To start and enable `homeflix` on boot use the `homeflix.service` unit provided:
+Start and enable `homeflix` on boot:
 
 ```shell
 systemctl --user enable --now homeflix/systemd/homeflix.service
+```
+
+Check the logs:
+
+```shell
+journalctl --user -u homeflix
 ```
