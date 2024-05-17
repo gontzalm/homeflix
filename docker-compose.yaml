@@ -41,7 +41,7 @@ services:
       - media:/data/media
       - torrents:/data/torrents
     ports:
-      - 8989:8989
+      - 8990:8989
     restart: unless-stopped
 
   recyclarr:
