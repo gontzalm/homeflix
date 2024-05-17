@@ -2,7 +2,7 @@
 
 radarr:
   movies:
-    base_url: http://localhost:7878
+    base_url: http://radarr:7878
     api_key: b28ff4dfd5b64fe9855c27a47cbf7aaf
 
     quality_definition:
@@ -181,7 +181,7 @@ radarr:
 
 sonarr:
   series:
-    base_url: http://localhost:8989
+    base_url: http://sonarr-series:8989
     api_key: d55e504109d140f88475cc4ebee4e7e3
 
     quality_definition:
@@ -280,7 +280,7 @@ sonarr:
           - name: WEB-DL (1080p)
 
   anime:
-    base_url: http://localhost:8990
+    base_url: http://sonarr-anime:8989
     api_key: d55e504109d140f88475cc4ebee4e7e3
 
     quality_definition:
