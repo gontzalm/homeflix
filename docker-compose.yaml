@@ -14,20 +14,43 @@ services:
       - 7878:7878
     restart: unless-stopped
 
-  sonarr:
+  sonarr-series:
     image: linuxserver/sonarr
-    container_name: sonarr
+    container_name: sonarr-series
     environment:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Madrid
     volumes:
-      - ${HOME}/homeflix/sonarr/config:/config
+      - ${HOME}/homeflix/sonarr-series/config:/config
       - media:/data/media
       - torrents:/data/torrents
     ports:
       - 8989:8989
     restart: unless-stopped
+
+  sonarr-anime:
+    image: linuxserver/sonarr
+    container_name: sonarr-anime
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Madrid
+    volumes:
+      - ${HOME}/homeflix/sonarr-anime/config:/config
+      - media:/data/media
+      - torrents:/data/torrents
+    ports:
+      - 8989:8989
+    restart: unless-stopped
+
+  recyclarr:
+    image: recyclarr/recyclarr
+    container_name: recyclarr
+    environment:
+      - TZ=Europe/Madrid
+    volumes:
+      - ${HOME}/homeflix/recyclarr/config:/config
 
   prowlarr:
     image: linuxserver/prowlarr
