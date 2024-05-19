@@ -11,7 +11,7 @@
   <SslCertPath></SslCertPath>
   <SslCertPassword></SslCertPassword>
   <UrlBase></UrlBase>
-  <InstanceName>Radarr</InstanceName>
+  <InstanceName>Radarr (Movies)</InstanceName>
   <UpdateMechanism>Docker</UpdateMechanism>
   <AuthenticationRequired>DisabledForLocalAddresses</AuthenticationRequired>
 </Config>
