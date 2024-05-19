@@ -1,1 +1,1 @@
-{"StartTimeUtc":"2024-05-16T21:49:52.865416Z","EndTimeUtc":"2024-05-16T21:49:52.8683845Z","Status":"Completed","Name":"Clean Log Directory","Key":"CleanLogFiles","Id":"1c8ede62c521bea0bf851344f5b8ca40"}
+{"StartTimeUtc":"2024-05-19T08:54:16.6150079Z","EndTimeUtc":"2024-05-19T08:54:16.6262278Z","Status":"Completed","Name":"Clean Log Directory","Key":"CleanLogFiles","Id":"1c8ede62c521bea0bf851344f5b8ca40"}

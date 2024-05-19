@@ -10,7 +10,7 @@
   <UpdateMechanism>Docker</UpdateMechanism>
   <LaunchBrowser>True</LaunchBrowser>
   <Branch>main</Branch>
-  <InstanceName>Sonarr</InstanceName>
+  <InstanceName>Sonarr (Anime)</InstanceName>
   <AuthenticationRequired>DisabledForLocalAddresses</AuthenticationRequired>
   <SslCertPath></SslCertPath>
   <SslCertPassword></SslCertPassword>
