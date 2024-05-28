@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LibraryOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Enabled>true</Enabled>
   <EnablePhotos>true</EnablePhotos>
   <EnableRealtimeMonitor>true</EnableRealtimeMonitor>
+  <EnableLUFSScan>false</EnableLUFSScan>
   <EnableChapterImageExtraction>false</EnableChapterImageExtraction>
   <ExtractChapterImagesDuringLibraryScan>false</ExtractChapterImagesDuringLibraryScan>
+  <EnableTrickplayImageExtraction>false</EnableTrickplayImageExtraction>
+  <ExtractTrickplayImagesDuringLibraryScan>false</ExtractTrickplayImagesDuringLibraryScan>
   <PathInfos>
     <MediaPathInfo>
       <Path>/data/media/movies</Path>
@@ -12,6 +16,7 @@
   <SaveLocalMetadata>false</SaveLocalMetadata>
   <EnableAutomaticSeriesGrouping>false</EnableAutomaticSeriesGrouping>
   <EnableEmbeddedTitles>false</EnableEmbeddedTitles>
+  <EnableEmbeddedExtrasTitles>false</EnableEmbeddedExtrasTitles>
   <EnableEmbeddedEpisodeInfos>false</EnableEmbeddedEpisodeInfos>
   <AutomaticRefreshIntervalDays>0</AutomaticRefreshIntervalDays>
   <PreferredMetadataLanguage>en</PreferredMetadataLanguage>

@@ -36,7 +36,9 @@
   <MinResumeDurationSeconds>300</MinResumeDurationSeconds>
   <MinAudiobookResume>5</MinAudiobookResume>
   <MaxAudiobookResume>5</MaxAudiobookResume>
+  <InactiveSessionThreshold>0</InactiveSessionThreshold>
   <LibraryMonitorDelay>60</LibraryMonitorDelay>
+  <LibraryUpdateDuration>30</LibraryUpdateDuration>
   <ImageSavingConvention>Legacy</ImageSavingConvention>
   <MetadataOptions>
     <MetadataOptions>
@@ -142,7 +144,7 @@
   <PluginRepositories>
     <RepositoryInfo>
       <Name>Jellyfin Stable</Name>
-      <Url>https://repo.jellyfin.org/releases/plugin/manifest-stable.json</Url>
+      <Url>https://repo.jellyfin.org/files/plugin/manifest.json</Url>
       <Enabled>true</Enabled>
     </RepositoryInfo>
   </PluginRepositories>
@@ -159,4 +161,32 @@
   <LibraryMetadataRefreshConcurrency>0</LibraryMetadataRefreshConcurrency>
   <RemoveOldPlugins>false</RemoveOldPlugins>
   <AllowClientLogUpload>true</AllowClientLogUpload>
+  <DummyChapterDuration>0</DummyChapterDuration>
+  <ChapterImageResolution>MatchSource</ChapterImageResolution>
+  <ParallelImageEncodingLimit>0</ParallelImageEncodingLimit>
+  <CastReceiverApplications>
+    <CastReceiverApplication>
+      <Id>F007D354</Id>
+      <Name>Stable</Name>
+    </CastReceiverApplication>
+    <CastReceiverApplication>
+      <Id>6F511C87</Id>
+      <Name>Unstable</Name>
+    </CastReceiverApplication>
+  </CastReceiverApplications>
+  <TrickplayOptions>
+    <EnableHwAcceleration>false</EnableHwAcceleration>
+    <EnableHwEncoding>false</EnableHwEncoding>
+    <ScanBehavior>NonBlocking</ScanBehavior>
+    <ProcessPriority>BelowNormal</ProcessPriority>
+    <Interval>10000</Interval>
+    <WidthResolutions>
+      <int>320</int>
+    </WidthResolutions>
+    <TileWidth>10</TileWidth>
+    <TileHeight>10</TileHeight>
+    <Qscale>4</Qscale>
+    <JpegQuality>90</JpegQuality>
+    <ProcessThreads>1</ProcessThreads>
+  </TrickplayOptions>
 </ServerConfiguration>

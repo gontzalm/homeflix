@@ -2,14 +2,19 @@
 <EncodingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EncodingThreadCount>-1</EncodingThreadCount>
   <EnableFallbackFont>false</EnableFallbackFont>
+  <EnableAudioVbr>false</EnableAudioVbr>
   <DownMixAudioBoost>2</DownMixAudioBoost>
+  <DownMixStereoAlgorithm>None</DownMixStereoAlgorithm>
   <MaxMuxingQueueSize>2048</MaxMuxingQueueSize>
   <EnableThrottling>false</EnableThrottling>
   <ThrottleDelaySeconds>180</ThrottleDelaySeconds>
+  <EnableSegmentDeletion>false</EnableSegmentDeletion>
+  <SegmentKeepSeconds>720</SegmentKeepSeconds>
   <EncoderAppPathDisplay>/usr/lib/jellyfin-ffmpeg/ffmpeg</EncoderAppPathDisplay>
   <VaapiDevice>/dev/dri/renderD128</VaapiDevice>
   <EnableTonemapping>false</EnableTonemapping>
   <EnableVppTonemapping>false</EnableVppTonemapping>
+  <EnableVideoToolboxTonemapping>false</EnableVideoToolboxTonemapping>
   <TonemappingAlgorithm>bt2390</TonemappingAlgorithm>
   <TonemappingMode>auto</TonemappingMode>
   <TonemappingRange>auto</TonemappingRange>
@@ -30,6 +35,7 @@
   <EnableIntelLowPowerHevcHwEncoder>false</EnableIntelLowPowerHevcHwEncoder>
   <EnableHardwareEncoding>true</EnableHardwareEncoding>
   <AllowHevcEncoding>false</AllowHevcEncoding>
+  <AllowAv1Encoding>false</AllowAv1Encoding>
   <EnableSubtitleExtraction>true</EnableSubtitleExtraction>
   <HardwareDecodingCodecs>
     <string>h264</string>
