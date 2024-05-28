@@ -1,21 +1,21 @@
 ---
 addic7ed:
-  cookies: ""
-  password: ""
-  user_agent: ""
-  username: ""
+  cookies: ''
+  password: ''
+  user_agent: ''
+  username: ''
   vip: false
 analytics:
   enabled: true
 anticaptcha:
-  anti_captcha_key: ""
+  anti_captcha_key: ''
 assrt:
-  token: ""
+  token: ''
 auth:
   apikey: 8b83cae19f3a013c60410147ec57903f
-  password: ""
+  password: ''
   type: null
-  username: ""
+  username: ''
 backup:
   day: 6
   folder: /config/backup
@@ -23,12 +23,12 @@ backup:
   hour: 3
   retention: 31
 betaseries:
-  token: ""
+  token: ''
 cors:
   enabled: false
 deathbycaptcha:
-  password: ""
-  username: ""
+  password: ''
+  username: ''
 embeddedsubtitles:
   hi_fallback: false
   included_codecs: []
@@ -40,21 +40,21 @@ general:
   adaptive_searching_delta: 1w
   anti_captcha_provider: anti-captcha
   auto_update: true
-  base_url: ""
+  base_url: ''
   branch: master
-  chmod: "0640"
+  chmod: '0640'
   chmod_enabled: false
   days_to_upgrade_subs: 7
   debug: false
-  default_und_audio_lang: ""
-  default_und_embedded_subtitles_lang: ""
+  default_und_audio_lang: ''
+  default_und_embedded_subtitles_lang: ''
   dont_notify_manual_actions: false
   embedded_subs_show_desired: true
   embedded_subtitles_parser: ffprobe
   enabled_providers:
-    - podnapisi
-    - gestdown
-    - opensubtitlescom
+  - podnapisi
+  - gestdown
+  - opensubtitlescom
   flask_secret_key: 8b65d12532d52a495a7e9b1be85889f6
   hi_extension: hi
   ignore_ass_subs: false
@@ -73,7 +73,7 @@ general:
   path_mappings: []
   path_mappings_movie: []
   port: 6767
-  postprocessing_cmd: ""
+  postprocessing_cmd: ''
   postprocessing_threshold: 90
   postprocessing_threshold_movie: 70
   serie_default_enabled: true
@@ -81,8 +81,8 @@ general:
   single_language: false
   skip_hashing: false
   subfolder: current
-  subfolder_custom: ""
-  subzero_mods: ""
+  subfolder_custom: ''
+  subzero_mods: ''
   theme: auto
   upgrade_frequency: 12
   upgrade_manual: true
@@ -91,31 +91,31 @@ general:
   use_postprocessing: false
   use_postprocessing_threshold: false
   use_postprocessing_threshold_movie: false
-  use_radarr: true
+  use_radarr: false
   use_scenename: true
   use_sonarr: true
   utf8_encode: true
   wanted_search_frequency: 6
   wanted_search_frequency_movie: 6
 hdbits:
-  passkey: ""
-  username: ""
+  passkey: ''
+  username: ''
 karagarga:
-  f_password: ""
-  f_username: ""
-  password: ""
-  username: ""
+  f_password: ''
+  f_username: ''
+  password: ''
+  username: ''
 ktuvit:
-  email: ""
-  hashed_password: ""
+  email: ''
+  hashed_password: ''
 legendasdivx:
-  password: ""
+  password: ''
   skip_wrong_fps: false
-  username: ""
+  username: ''
 legendastv:
   featured_only: false
-  password: ""
-  username: ""
+  password: ''
+  username: ''
 movie_scores:
   audio_codec: 3
   edition: 1
@@ -129,15 +129,15 @@ movie_scores:
   video_codec: 2
   year: 30
 napisy24:
-  password: ""
-  username: ""
+  password: ''
+  username: ''
 opensubtitles:
-  password: ""
+  password: ''
   skip_wrong_fps: false
   ssl: false
   timeout: 15
   use_tag_search: false
-  username: ""
+  username: ''
   vip: false
 opensubtitlescom:
   include_ai_translated: false
@@ -147,24 +147,24 @@ opensubtitlescom:
 podnapisi:
   verify_ssl: true
 postgresql:
-  database: ""
+  database: ''
   enabled: false
   host: localhost
-  password: ""
+  password: ''
   port: 5432
-  username: ""
+  username: ''
 proxy:
   exclude:
-    - localhost
-    - 127.0.0.1
-  password: ""
-  port: ""
+  - localhost
+  - 127.0.0.1
+  password: ''
+  port: ''
   type: null
-  url: ""
-  username: ""
+  url: ''
+  username: ''
 radarr:
   apikey: b28ff4dfd5b64fe9855c27a47cbf7aaf
-  base_url: ""
+  base_url: ''
   defer_search_signalr: false
   excluded_tags: []
   full_update: Daily
@@ -193,7 +193,7 @@ series_scores:
   year: 90
 sonarr:
   apikey: d55e504109d140f88475cc4ebee4e7e3
-  base_url: ""
+  base_url: ''
   defer_search_signalr: false
   episodes_sync: 60
   exclude_season_zero: false
@@ -212,11 +212,11 @@ sonarr:
   sync_only_monitored_series: false
   use_ffprobe_cache: true
 subf2m:
-  user_agent: ""
+  user_agent: ''
   verify_ssl: true
 subscene:
-  password: ""
-  username: ""
+  password: ''
+  username: ''
 subsync:
   checker:
     blacklisted_languages: []
@@ -232,17 +232,17 @@ subsync:
   use_subsync_movie_threshold: true
   use_subsync_threshold: true
 titlovi:
-  password: ""
-  username: ""
+  password: ''
+  username: ''
 titulky:
   approved_only: false
-  password: ""
-  username: ""
+  password: ''
+  username: ''
 whisperai:
   endpoint: http://127.0.0.1:9000
   loglevel: INFO
   response: 5
   timeout: 3600
 xsubs:
-  password: ""
-  username: ""
+  password: ''
+  username: ''

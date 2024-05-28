@@ -203,7 +203,7 @@ sonarr:
   full_update_day: 6
   full_update_hour: 4
   http_timeout: 60
-  ip: sonarr
+  ip: sonarr-series
   only_monitored: false
   port: 8989
   series_sync: 60
