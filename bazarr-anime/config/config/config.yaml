@@ -64,7 +64,7 @@ general:
   language_equals: []
   minimum_score: 90
   minimum_score_movie: 80
-  movie_default_enabled: true
+  movie_default_enabled: false
   movie_default_profile: 1
   multithreading: true
   page_size: 25
