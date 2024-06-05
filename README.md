@@ -13,7 +13,9 @@
 
    - [Raspberry Pi 4 - Arch Linux ARM](https://archlinuxarm.org/platforms/armv8/broadcom/raspberry-pi-4)
    - [Arch Linux ARM USB Boot on Raspberry Pi 4](https://gist.github.com/yogaxpto/9495fb9f76a6321aa483e0f73d4ffaf2)
-   - This [comment](https://gist.github.com/yogaxpto/9495fb9f76a6321aa483e0f73d4ffaf2?permalink_comment_id=4206041#gistcomment-4206041) on the previous gist
+   - This
+     [comment](https://gist.github.com/yogaxpto/9495fb9f76a6321aa483e0f73d4ffaf2?permalink_comment_id=4206041#gistcomment-4206041)
+     on the previous gist
 
 1. Install the HDDs in the bay and set up RAID1 mode for redundancy.
 
@@ -47,7 +49,7 @@
    [TRaSH guide](https://trash-guides.info/Hardlinks/How-to-setup-for/Docker/):
 
    ```shell
-   sudo mkdir -p /mnt/hdd/data/{media,torrents}/{movies,tv}
+   sudo mkdir -p /mnt/hdd/data/{media,torrents}/{anime,movies,tv}
    ```
 
 ## APPs Setup
@@ -62,10 +64,11 @@ Follow the [TRaSH guides](https://trash-guides.info/).
    systemctl --user enable --now homeflix/systemd/homeflix.service
    ```
 
-2. Enable [lingering](https://wiki.archlinux.org/title/Systemd/User#Automatic_start-up_of_systemd_user_instances):
+2. Enable
+   [lingering](https://wiki.archlinux.org/title/Systemd/User#Automatic_start-up_of_systemd_user_instances):
 
    ```shell
-   loginctl enable-lingering
+   loginctl enable-linger
    ```
 
 3. Check the logs:
