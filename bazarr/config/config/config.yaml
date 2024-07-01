@@ -7,6 +7,13 @@ addic7ed:
   vip: false
 analytics:
   enabled: true
+anidb:
+  api_client: ''
+  api_client_ver: 1
+animetosho:
+  anidb_api_client: ''
+  anidb_api_client_ver: 1
+  search_threshold: 6
 anticaptcha:
   anti_captcha_key: ''
 assrt:
@@ -16,6 +23,9 @@ auth:
   password: ''
   type: null
   username: ''
+avistaz:
+  cookies: ''
+  user_agent: ''
 backup:
   day: 6
   folder: /config/backup
@@ -24,16 +34,20 @@ backup:
   retention: 31
 betaseries:
   token: ''
+cinemaz:
+  cookies: ''
+  user_agent: ''
 cors:
   enabled: false
 deathbycaptcha:
   password: ''
   username: ''
 embeddedsubtitles:
+  fallback_lang: en
   hi_fallback: false
   included_codecs: []
   timeout: 600
-  unknown_as_english: false
+  unknown_as_fallback: false
 general:
   adaptive_searching: true
   adaptive_searching_delay: 3w
@@ -51,6 +65,7 @@ general:
   dont_notify_manual_actions: false
   embedded_subs_show_desired: true
   embedded_subtitles_parser: ffprobe
+  enabled_integrations: []
   enabled_providers:
   - podnapisi
   - gestdown
@@ -116,6 +131,11 @@ legendastv:
   featured_only: false
   password: ''
   username: ''
+log:
+  exclude_filter: ''
+  ignore_case: false
+  include_filter: ''
+  use_regex: false
 movie_scores:
   audio_codec: 3
   edition: 1
