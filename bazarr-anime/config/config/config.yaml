@@ -81,6 +81,7 @@ general:
   minimum_score_movie: 80
   movie_default_enabled: false
   movie_default_profile: 1
+  movie_tag_enabled: false
   multithreading: true
   page_size: 25
   page_size_manual_search: 10
@@ -91,8 +92,10 @@ general:
   postprocessing_cmd: ''
   postprocessing_threshold: 90
   postprocessing_threshold_movie: 70
+  remove_profile_tags: []
   serie_default_enabled: true
   serie_default_profile: 1
+  serie_tag_enabled: false
   single_language: false
   skip_hashing: false
   subfolder: current
@@ -115,6 +118,11 @@ general:
 hdbits:
   passkey: ''
   username: ''
+jimaku:
+  api_key: ''
+  enable_ai_subs: false
+  enable_archives_download: false
+  enable_name_search_fallback: true
 karagarga:
   f_password: ''
   f_username: ''
@@ -126,6 +134,9 @@ ktuvit:
 legendasdivx:
   password: ''
   skip_wrong_fps: false
+  username: ''
+legendasnet:
+  password: ''
   username: ''
 legendastv:
   featured_only: false
@@ -231,6 +242,8 @@ sonarr:
   sync_only_monitored_episodes: false
   sync_only_monitored_series: false
   use_ffprobe_cache: true
+subdl:
+  api_key: ''
 subf2m:
   user_agent: ''
   verify_ssl: true
