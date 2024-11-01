@@ -77,5 +77,13 @@
       <Item1>cf6fabc2-9fbe-4933-84a5-ffe52ef22a58</Item1>
       <Item2>FixAudioData</Item2>
     </ValueTupleOfGuidString>
+    <ValueTupleOfGuidString>
+      <Item1>a8e61960-7726-4450-8f3d-82c12daabbcb</Item1>
+      <Item2>MigrateEncodingOptions</Item2>
+    </ValueTupleOfGuidString>
+    <ValueTupleOfGuidString>
+      <Item1>4ef123d5-8eff-4b0b-869d-3aed07a60e1b</Item1>
+      <Item2>MoveTrickplayFiles</Item2>
+    </ValueTupleOfGuidString>
   </Applied>
 </MigrationOptions>
