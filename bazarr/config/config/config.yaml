@@ -159,6 +159,9 @@ movie_scores:
   title: 60
   video_codec: 2
   year: 30
+napiprojekt:
+  only_authors: false
+  only_real_names: false
 napisy24:
   password: ''
   username: ''
@@ -270,10 +273,12 @@ titlovi:
 titulky:
   approved_only: false
   password: ''
+  skip_wrong_fps: false
   username: ''
 whisperai:
   endpoint: http://127.0.0.1:9000
   loglevel: INFO
+  pass_video_name: false
   response: 5
   timeout: 3600
 xsubs:
