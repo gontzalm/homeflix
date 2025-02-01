@@ -58,7 +58,7 @@ general:
   branch: master
   chmod: '0640'
   chmod_enabled: false
-  days_to_upgrade_subs: 7
+  days_to_upgrade_subs: 20
   debug: false
   default_und_audio_lang: ''
   default_und_embedded_subtitles_lang: ''
@@ -100,7 +100,7 @@ general:
   skip_hashing: false
   subfolder: current
   subfolder_custom: ''
-  subzero_mods: ''
+  subzero_mods: remove_HI,remove_tags,common,fix_uppercase
   theme: auto
   upgrade_frequency: 12
   upgrade_manual: true
@@ -260,13 +260,13 @@ subsync:
   debug: false
   force_audio: false
   gss: true
-  max_offset_seconds: 60
-  no_fix_framerate: true
-  subsync_movie_threshold: 86
+  max_offset_seconds: 120
+  no_fix_framerate: false
+  subsync_movie_threshold: 73
   subsync_threshold: 96
   use_subsync: true
-  use_subsync_movie_threshold: true
-  use_subsync_threshold: true
+  use_subsync_movie_threshold: false
+  use_subsync_threshold: false
 titlovi:
   password: ''
   username: ''
