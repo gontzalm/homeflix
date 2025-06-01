@@ -106,6 +106,7 @@ general:
   upgrade_manual: true
   upgrade_subs: true
   use_embedded_subs: false
+  use_plex: false
   use_postprocessing: false
   use_postprocessing_threshold: false
   use_postprocessing_threshold_movie: false
@@ -178,6 +179,17 @@ opensubtitlescom:
   password: 3x,3dSEveVyiF89
   use_hash: true
   username: gontzalm
+plex:
+  apikey: ''
+  ip: 127.0.0.1
+  movie_library: ''
+  port: 32400
+  series_library: ''
+  set_episode_added: false
+  set_movie_added: false
+  ssl: false
+  update_movie_library: false
+  update_series_library: false
 podnapisi:
   verify_ssl: true
 postgresql:
@@ -275,6 +287,9 @@ titulky:
   password: ''
   skip_wrong_fps: false
   username: ''
+turkcealtyaziorg:
+  cookies: ''
+  user_agent: ''
 whisperai:
   endpoint: http://127.0.0.1:9000
   loglevel: INFO
