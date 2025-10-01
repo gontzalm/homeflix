@@ -181,15 +181,29 @@ opensubtitlescom:
   username: gontzalm
 plex:
   apikey: ''
+  auth_method: apikey
+  disable_auto_migration: false
+  email: ''
+  encryption_key: 7MjhpLkw6LnC-mcS1usN7wQKoFVhNxNT8QTbiFzzPe0
   ip: 127.0.0.1
+  migration_attempted: false
+  migration_successful: false
+  migration_timestamp: ''
   movie_library: ''
   port: 32400
   series_library: ''
+  server_local: false
+  server_machine_id: ''
+  server_name: ''
+  server_url: ''
   set_episode_added: false
   set_movie_added: false
   ssl: false
+  token: ''
   update_movie_library: false
   update_series_library: false
+  user_id: ''
+  username: ''
 podnapisi:
   verify_ssl: true
 postgresql:
@@ -287,6 +301,13 @@ titulky:
   password: ''
   skip_wrong_fps: false
   username: ''
+translator:
+  default_score: 50
+  gemini_key: ''
+  gemini_model: gemini-2.0-flash
+  lingarr_url: http://lingarr:9876
+  translator_info: true
+  translator_type: google_translate
 turkcealtyaziorg:
   cookies: ''
   user_agent: ''
